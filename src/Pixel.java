@@ -43,10 +43,6 @@ public class Pixel {
      */
     @Override
     public String toString() {
-        System.out.print(this.hashCode());
-        System.out.print(", x = " + x);
-        System.out.print(", y = " + y);
-        System.out.println(", color = " + color);
         return this.hashCode() + ", x = " + x + ", y = " + y + ", color = " + color;
     }
 }

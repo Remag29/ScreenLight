@@ -38,7 +38,11 @@ public class PixelSelection {
 
     @Override
     public String toString() {
-        //TODO
-        return null;
+        String string = "";
+        for (int pixel = 0; pixel < this.pixellist.size(); pixel++) {
+            string += this.getPixel(pixel).toString();
+            string += "\n\r";
+        }
+        return string;
     }
 }
